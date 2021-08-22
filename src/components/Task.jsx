@@ -5,7 +5,6 @@ import "react-day-picker/lib/style.css";
 import isAfter from "date-fns/isAfter";
 import isBefore from "date-fns/isBefore";
 import addDays from "date-fns/addDays";
-import isTOday from "date-fns/isToday";
 import { isToday } from 'date-fns';
 
 const FORMAT = "dd/MM/yyyy";
