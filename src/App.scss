@@ -88,3 +88,31 @@ body {
     }
   }
 }
+
+.add-task-dialog {
+  input {
+    outline: 2px solid black;
+    border: 0;
+    margin: 5px;
+    height: 25px;
+    background-color: rgb(239, 246, 247);
+  }
+  input:hover {
+    outline: 3px solid blue;
+  }
+
+  button {
+    outline: 0;
+    border: 0;
+    margin: 10px;
+    font-weight: 600;
+    height: 35px;
+    background-color: rgb(29, 31, 26);
+    color: white;
+  }
+
+  button:hover {
+    background-color: yellowgreen;
+    transition: 1s;
+  }
+}
