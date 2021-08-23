@@ -67,7 +67,7 @@ const TaskItems =({selectedTab, tasks})=>{
 
     return tasksToRender.map((task)=>(
         <p>
-            {task.text}{dateFnsFormat(new Date(task.date), FORMAT)}{" "}
+            {task.text}<span>{dateFnsFormat(new Date(task.date), FORMAT)}</span>
         </p>
 
     ));

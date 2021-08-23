@@ -6,8 +6,9 @@ const Header = () => {
         <header className="header">
             <nav>
                 <div className="logo">
-                    <img src={logo} alt="TodoList"></img>
+                    <img src={logo} alt="TodoList"></img> 
                 </div>
+                <p>TO-DO LIST</p>
             </nav>
 
         </header>
